@@ -1,0 +1,32 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  flex-wrap: nowrap;
+  background-color: black;
+  color: white;
+}
+.bFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu div {
+  margin-right: 10px;
+}
+.body {
+  margin-top: 20px;
+  color: black;
+}

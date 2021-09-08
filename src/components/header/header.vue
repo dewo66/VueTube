@@ -8,24 +8,28 @@
       <div class="menu">
         <div
           class="anaSayfa"
-          @click="provideData.activeComponent = 'AnaSayfa'"
+          @click="$store.state.activeComponent = 'AnaSayfa'"
           href="#anaSayfa"
         >
           Ana Sayfa
         </div>
-        <div class="kesfet" @click="provideData.activeComponent = 'Kesfet'" href="#kesfet">
+        <div
+          class="kesfet"
+          @click="$store.state.activeComponent = 'Kesfet'"
+          href="#kesfet"
+        >
           Keşfet
         </div>
         <div
           class="kitaplik"
-          @click="provideData.activeComponent = 'Kitaplik'"
+          @click="$store.state.activeComponent = 'Kitaplik'"
           href="#kitaplik"
         >
           Kitaplık
         </div>
         <div
           class="yukselt"
-          @click="provideData.activeComponent = 'Yukselt'"
+          @click="$store.state.activeComponent = 'Yukselt'"
           href="#yukselt"
         >
           Yükselt
@@ -48,51 +52,19 @@
 export default {
   data() {
     return {
-      provideData:{
-      activeComponent: "AnaSayfa",
-
-      }
+      /*  activeComponent: this.$store.state.activeComponent,*/
     };
   },
-
-  provide() {
-    return {
-      activeComponent: this.activeComponent,
-    };
+  watch: {
+    /*
+    activeComponent: function (val) {
+      this.$store.state.activeComponent = val;
+      console.log(this.$store.state.MusicData)
+    }, */
   },
 };
 </script>
 
 <style >
-.container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 50px;
-  width: 100%;
-  flex-wrap: nowrap;
-  background-color: black;
-  color: white;
-}
-.bFlex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 50px;
-  width: 100%;
-  flex-wrap: nowrap;
-}
-.menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.menu div {
-  margin-right: 10px;
-}
-.body {
-  margin-top: 20px;
-  color: black;
-}
+@import "../../assets/header/header.css";
 </style>

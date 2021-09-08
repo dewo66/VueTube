@@ -9,7 +9,6 @@ import Kitaplik from "./pageButtons/kitaplik.vue";
 import Yukselt from "./pageButtons/yükselt.vue";
 
 export default {
-  inject: ["activeComponent"],
   components: {
     AnaSayfa,
     Kesfet,
@@ -19,8 +18,10 @@ export default {
 
   data() {
     return {
-      
+      activeComponent: this.$store.state.activeComponent,
     };
+  },
+  watch: {
   },
 };
 </script>

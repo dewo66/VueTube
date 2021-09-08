@@ -1,4 +1,4 @@
-# 2-todo-app
+# todo-app vuetube
 
 ## Project setup
 ```
