@@ -8,7 +8,7 @@ const store = createStore({
 
     },
     getters:{
-        /* sanatci: state => state.MusicData.filter(i => console.log(i)) */
+        
     }
 })
 

@@ -50,18 +50,12 @@
 
 <script>
 export default {
-  data() {
-    return {
-      /*  activeComponent: this.$store.state.activeComponent,*/
-    };
-  },
-  watch: {
-    /*
-    activeComponent: function (val) {
-      this.$store.state.activeComponent = val;
-      console.log(this.$store.state.MusicData)
-    }, */
-  },
+  
+  methods : {
+    activeComponent(){
+      this.$store
+    }
+  }
 };
 </script>
 

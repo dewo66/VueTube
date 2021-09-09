@@ -7,6 +7,7 @@ import AnaSayfa from "./pageButtons/anaSayfa.vue";
 import Kesfet from "./pageButtons/kesfet.vue";
 import Kitaplik from "./pageButtons/kitaplik.vue";
 import Yukselt from "./pageButtons/yükselt.vue";
+import { mapGetters } from "vuex";
 
 export default {
   components: {
@@ -21,7 +22,12 @@ export default {
       activeComponent: this.$store.state.activeComponent,
     };
   },
-  watch: {
+  computed: {
+    ...mapGetters({
+      activeComponent : "activeComponent",
+      MusicData : "MusicData"
+      
+    })
   },
 };
 </script>

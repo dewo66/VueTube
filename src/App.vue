@@ -1,7 +1,7 @@
 <template>
   <div class="container">
   <Header/>
-  <Body :activeComponent="activeComponent" />
+  <Body/>
   <AxiosGet/>
   </div>
 </template>
