@@ -6,34 +6,17 @@
         <div>icon</div>
       </div>
       <div class="menu">
-        <div
-          class="anaSayfa"
-          @click="$store.state.activeComponent = 'AnaSayfa'"
-          href="#anaSayfa"
-        >
-          Ana Sayfa
-        </div>
-        <div
-          class="kesfet"
-          @click="$store.state.activeComponent = 'Kesfet'"
-          href="#kesfet"
-        >
+        <router-link class="nav-link" active-class="active" to="/Anasayfa">
+          Anasayfa
+        </router-link>
+        <router-link class="nav-link" active-class="active" to="/Kesfet">
           Keşfet
-        </div>
-        <div
-          class="kitaplik"
-          @click="$store.state.activeComponent = 'Kitaplik'"
-          href="#kitaplik"
-        >
-          Kitaplık
-        </div>
-        <div
-          class="yukselt"
-          @click="$store.state.activeComponent = 'Yukselt'"
-          href="#yukselt"
-        >
+        </router-link>
+        <router-link class="nav-link" active-class="active" to="/Kitaplik">
+          Kitaplık </router-link
+        ><router-link class="nav-link" active-class="active" to="/Yukselt">
           Yükselt
-        </div>
+        </router-link>
         <div class="searchContainer">
           <!-- <div class="icon"><img src="" /></div>-->
           <div class="arayin" href="#arayin">Arayin</div>
@@ -45,17 +28,17 @@
         />
       </div>
     </div>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  
-  methods : {
-    activeComponent(){
-      this.$store
-    }
-  }
+  methods: {
+    activeComponent() {
+      this.$store;
+    },
+  },
 };
 </script>
 

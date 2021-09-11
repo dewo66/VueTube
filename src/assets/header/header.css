@@ -1,4 +1,6 @@
-
+* {
+  background-color: black;
+}
 .container {
   display: flex;
   align-items: center;
@@ -26,7 +28,9 @@
 .menu div {
   margin-right: 10px;
 }
-.body {
-  margin-top: 20px;
-  color: black;
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
