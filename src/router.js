@@ -5,25 +5,25 @@ const routes = [
     name: "AnaSayfaPage",
     path: "/AnaSayfa",
     // component : Home
-    component: () => import("./components/body/pageButtons/anaSayfa.vue"),
+    component: () => import("./views/anaSayfa.vue"),
   },
   {
     name: "KesfetPage",
     path: "/kesfet",
     // component : Home
-    component: () => import("./components/body/pageButtons/kesfet.vue"),
+    component: () => import("./views/kesfet.vue"),
   },
   {
     name: "KitaplikPage",
     path: "/kitaplik",
     // component : Home
-    component: () => import("./components/body/pageButtons/kitaplik.vue"),
+    component: () => import("./views/kitaplik.vue"),
   },
   {
     name: "YukseltPage",
     path: "/yukselt",
     // component : Home
-    component: () => import("./components/body/pageButtons/yükselt.vue"),
+    component: () => import("./views/yükselt.vue"),
   },
 ];
 

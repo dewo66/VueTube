@@ -1,35 +1,27 @@
 <template>
   <div class="container">
-  <Header/>
-  <AxiosGet/>
+    <Header />
+        <router-view></router-view>
+
   </div>
 </template>
 <script>
-import Header from "./components/header/header.vue";
-import AxiosGet from "./components/axios/AxiosGet.vue"
+import Header from "./views/header/header.vue";
 export default {
-  
   components: {
     Header,
-    AxiosGet
   },
   data() {
     return {
       provideData: {
-        todoList: [
-        ],
+        todoList: [],
       },
     };
   },
-  created(){
-    console.log( this.$store.getters.sanatci)
+  created() {
+    console.log(this.$store.getters);
   },
- 
-  methods: {
-    Musicdata() {
-      this.itemList.forEach(element => this.provideData.todoList.push(element))
-      console.log(this.provideData)
-    }
-  },
+
+  methods: {},
 };
 </script>

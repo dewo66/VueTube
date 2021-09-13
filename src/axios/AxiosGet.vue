@@ -1,5 +1,5 @@
 <template>
-<div  style="color:black;"></div>
+<div  style="color:red;"></div>
 </template>
 
 <script>
@@ -13,9 +13,10 @@ export default {
         "https://gist.githubusercontent.com/dewo66/21a9a54192693647f9f614d6df93c785/raw/de81b34b164ebbba1a0d400a6dac6e2b4953d75c/music"
       )
       .then((musicData) => {
-        this.$store.state.MusicData.push(musicData)
+        this.$store.commit('addMusicData', musicData)
       });
   },
+  
 };
 </script>
 
