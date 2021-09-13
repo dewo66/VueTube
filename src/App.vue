@@ -1,27 +1,22 @@
 <template>
   <div class="container">
     <Header />
-        <router-view></router-view>
-
+    <router-view/>
   </div>
 </template>
 <script>
 import Header from "./views/header/header.vue";
+import * as request from "./axios" 
 export default {
   components: {
     Header,
   },
-  data() {
-    return {
-      provideData: {
-        todoList: [],
-      },
-    };
-  },
   created() {
-    console.log(this.$store.getters);
-  },
+    request.getUsers().then((musicData) => {
+    this.$store.commit("addMusicData", musicData);
+    console.log(this.$store )
+  });
 
-  methods: {},
+  }
 };
 </script>

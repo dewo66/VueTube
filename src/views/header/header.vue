@@ -33,11 +33,6 @@
 
 <script>
 export default {
-  methods: {
-    activeComponent() {
-      this.$store;
-    },
-  },
 };
 </script>
 

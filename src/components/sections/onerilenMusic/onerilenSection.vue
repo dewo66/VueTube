@@ -63,11 +63,23 @@
         </div>
       </div>
     </div>
+    
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      provideData: {
+        todoList: [],
+      },
+    };
+  },
+  created() {
+  console.log( this.$store.state.musicData)
+  },
+};
 </script>
 
 <style scoped>
