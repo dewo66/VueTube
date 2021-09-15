@@ -14,7 +14,6 @@ export default {
   created() {
     request.getUsers().then((musicData) => {
     this.$store.commit("addMusicData", musicData);
-    console.log(this.$store )
   });
 
   }

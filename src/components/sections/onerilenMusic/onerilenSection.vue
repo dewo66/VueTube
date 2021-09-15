@@ -17,69 +17,37 @@
           </div>
         </div>
       </div>
-      <div id="icerik2">
-        <img
-          id="resim2"
-          class="img"
-          width="400"
-          src="https://i.ytimg.com/vi/XnSJFzixPhM/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&amp;rs=AMzJL3l5g3JGPmGAwp581cJXWtndJ5DT5w"
-        />
-        <div class="detail">
-          <div class="title">Yıkılmam Asla</div>
-          <div class="supTitle">
-            <div class="solist">Ayça Özefe</div>
-            <div class="goruntulenme">13 Mn görüntülenme</div>
-          </div>
-        </div>
-      </div>
-      <div id="icerik3">
-        <img
-          id="resim3"
-          class="img"
-          width="400"
-          src="https://i.ytimg.com/vi/XnSJFzixPhM/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&amp;rs=AMzJL3l5g3JGPmGAwp581cJXWtndJ5DT5w"
-        />
-        <div class="detail">
-          <div class="title">Yıkılmam Asla</div>
-          <div class="supTitle">
-            <div class="solist">Ayça Özefe</div>
-            <div class="goruntulenme">13 Mn görüntülenme</div>
-          </div>
-        </div>
-      </div>
-      <div id="icerik4">
-        <img
-          id="resim4"
-          class="img"
-          width="400"
-          src="https://i.ytimg.com/vi/XnSJFzixPhM/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&amp;rs=AMzJL3l5g3JGPmGAwp581cJXWtndJ5DT5w"
-        />
-        <div class="detail">
-          <div class="title">Yıkılmam Asla</div>
-          <div class="supTitle">
-            <div class="solist">Ayça Özefe</div>
-            <div class="goruntulenme">13 Mn görüntülenme</div>
-          </div>
-        </div>
-      </div>
     </div>
     
   </div>
 </template>
 
 <script>
+/*
+
 export default {
   data() {
     return {
-      provideData: {
-        todoList: [],
-      },
+      provideData: [{
+        image:"",
+        artist:"",
+        soundName:"",
+        like:0,
+      }],
     };
   },
   created() {
-  console.log( this.$store.state.musicData)
+  this.$store.state.MusicData[0].data.forEach(( item ) => {
+    this.provideData.artist.push(item.artist)
+    this.provideData.image.push(item.image)
+    this.provideData.soundName.push(item.soundName)
+    this.provideData.like.push(item.like)
+
+  console.log( item.soundName  ) 
+});
   },
 };
+*/
 </script>
 
 <style scoped>

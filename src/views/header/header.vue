@@ -19,7 +19,7 @@
         </router-link>
         <div class="searchContainer">
           <!-- <div class="icon"><img src="" /></div>-->
-          <div class="arayin" href="#arayin">Arayin</div>
+          <div class="arayin" href="#arayin" @click=" search=!search " >Arayin</div>
         </div>
       </div>
       <div class="profilIcon">
@@ -27,13 +27,29 @@
           src="https://yt3.ggpht.com/ytc/AKedOLTwlbpdpMjGk3fIGdsM4rnNPDsOBc_t5f7hzhrm4Utn6A7UdhuDxqCDyVMPXBws=s108-c-k-c0x00ffffff-no-rj"
         />
       </div>
-    </div>
+    </div>            <search v-if="search" style="  z-index: index 99; position:fixed; margin-top:10px; "  />
+
   </div>
+
 </template>
 
+
 <script>
+import search from "../../components/sections/search/search.vue"
 export default {
-};
+  components: {
+    search,
+  },
+  data(){
+    return {
+      search:false,
+    }
+  },
+  methods:{
+    searching () {
+      return this.search=true;
+    }
+  }}
 </script>
 
 <style scoped >
