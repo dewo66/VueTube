@@ -1,53 +1,69 @@
 <template>
   <div class="container">
-    <div class="header">Önerilen Music videoları</div>
-    <div class="slider">
-      <div id="icerik1">
+    <section>
+      <div class="header">Önerilen Music videoları</div>
+
+
+
+
+    <div class="slider" >
+<splide :options="options">
+    <splide-slide  v-for=" data in provideData.todoList " :key=" data">
+<div id="icerik1" >
         <img
           id="resim1"
           class="img"
           width="400"
-          src="https://i.ytimg.com/vi/XnSJFzixPhM/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&amp;rs=AMzJL3l5g3JGPmGAwp581cJXWtndJ5DT5w"
-        />
+          height="400"
+          :src="data.image"/>
         <div class="detail">
-          <div class="title">Yıkılmam Asla</div>
+          <div class="title"> {{ data.soundName }} </div>
           <div class="supTitle">
-            <div class="solist">Ayça Özefe</div>
-            <div class="goruntulenme">13 Mn görüntülenme</div>
+            <div class="solist"> {{ data.artist }} </div>
+            <div class="goruntulenme"> {{ data.like }} </div>
           </div>
         </div>
-      </div>
+      </div>    
+      </splide-slide>
+  </splide>
     </div>
-    
+    </section>
   </div>
 </template>
 
 <script>
-/*
+import { Splide, SplideSlide } from '@splidejs/vue-splide';
+import '@splidejs/splide/dist/css/themes/splide-skyblue.min.css';
 
 export default {
+  components:{
+    
+    Splide,
+    SplideSlide,
+  },
   data() {
     return {
-      provideData: [{
-        image:"",
-        artist:"",
-        soundName:"",
-        like:0,
-      }],
+      provideData: {
+        todoList: [],
+      },
+        options: {    
+type: 'slide',
+width: 1500,
+gap: '4vw',
+pagination : false,
+fixedWidth  : 350,
+fixedHeight : 550,
+focus: 'center',
+        },
     };
   },
   created() {
   this.$store.state.MusicData[0].data.forEach(( item ) => {
-    this.provideData.artist.push(item.artist)
-    this.provideData.image.push(item.image)
-    this.provideData.soundName.push(item.soundName)
-    this.provideData.like.push(item.like)
-
-  console.log( item.soundName  ) 
+    this.provideData.todoList.push(item)
+    console.log(item)
 });
   },
 };
-*/
 </script>
 
 <style scoped>
