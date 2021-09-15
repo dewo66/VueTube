@@ -14,13 +14,19 @@ export default {
     data() {
     return {
       search: "",
-      itemList: ["elma", "armut", "kiraz", "çilek"],
+      itemList: [],
     };            
   },
   computed: {
     filteredList() {
       return this.itemList.filter((i) => i.includes(this.search));
     },
+  },
+  created() {
+  this.$store.state.MusicData[0].data.forEach(( item ) => {
+    this.itemList.push(item.artist)
+    this.itemList.push(item.soundName)
+});
   },
 
 }

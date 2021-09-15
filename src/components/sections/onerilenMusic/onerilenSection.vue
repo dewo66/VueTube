@@ -60,7 +60,6 @@ focus: 'center',
   created() {
   this.$store.state.MusicData[0].data.forEach(( item ) => {
     this.provideData.todoList.push(item)
-    console.log(item)
 });
   },
 };
