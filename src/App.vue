@@ -15,7 +15,9 @@ export default {
     request.getUsers().then((musicData) => {
     this.$store.commit("addMusicData", musicData);
   });
-
+    request.getmixes().then((mixes) => {
+    this.$store.commit("addMixesData", mixes);
+  });
   }
 };
 </script>

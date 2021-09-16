@@ -59,4 +59,17 @@ export default {
   z-index: 99;
   
 }
+.nav-link {
+  padding: 5px;
+  text-decoration: none;
+  border: 1px solid black;
+  color: gray;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.active {
+  color: white;
+  
+}
 </style>

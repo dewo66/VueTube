@@ -5,6 +5,18 @@
       <section>
         <onerilensection/>
       </section>
+      <section>
+        <aksamMuzikleriniz/>
+      </section>
+      <section>
+        <sevdikleriniz/>
+      </section>
+     <section>
+        <canliPerformanslar/>
+      </section>
+      <section>
+        <mixes/>
+      </section>
     </div>
 
 
@@ -14,10 +26,19 @@
 <script>
 
 import onerilensection from "../components/sections/onerilenMusic/onerilenSection.vue"
+import aksamMuzikleriniz from "../components/sections/aksamMuzikleriniz/aksamMuzikleriniz.vue"
+import sevdikleriniz from "../components/sections/enSevdikleriniz/sevdikleriniz.vue"
+import canliPerformanslar from "../components/sections/canliPerformanslar/canliPerformanslar.vue"
+import mixes from "../components/sections/mixes/mixes.vue"
+
 export default {
   components: {
 
-onerilensection
+onerilensection,
+aksamMuzikleriniz,
+sevdikleriniz,
+canliPerformanslar,
+mixes,
   },
 
   data() {
