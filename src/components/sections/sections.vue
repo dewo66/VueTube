@@ -1,7 +1,8 @@
 <template>
   <div class="container">
     <section>
-      <div class="header"> {{ postTitle }} </div>
+      <div class="header">{{ postTitle }}</div>
+
     <div class="slider" >
 <splide :options="options">
     <splide-slide  v-for=" data in provideData.todoList " :key=" data">
@@ -11,11 +12,12 @@
           class="img"
           width="400"
           height="400"
-          :src="data.MixImage"/>
+          :src="data.image"/>
         <div class="detail">
+          <div class="title"> {{ data.soundName }} </div>
           <div class="supTitle">
-            <div class="mixName"> {{ data.name }} </div>
-            <pre class="solistler"> {{ data.solistler }} </pre>
+            <div class="solist"> {{ data.artist }} </div>
+            <div class="goruntulenme"> {{ data.like }} </div>
           </div>
         </div>
       </div>    
@@ -38,7 +40,6 @@ export default {
       default:"başlık bölümü"
     }
   },
-
   components:{
     
     Splide,
@@ -61,10 +62,9 @@ focus: 'center',
     };
   },
   created() {
-  this.$store.state.Mixes[0].data.forEach(( item ) => {
+  this.$store.state.MusicData[0].data.forEach(( item ) => {
     this.provideData.todoList.push(item)
-});  
-
+});
   },
 };
 </script>
@@ -103,7 +103,5 @@ focus: 'center',
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 </style>

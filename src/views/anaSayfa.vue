@@ -3,20 +3,38 @@
     
 <div class="body">
       <section>
-        <onerilensection/>
+        <sections postTitle="Canlı Performanslar" />
       </section>
       <section>
-        <aksamMuzikleriniz/>
+        <sections postTitle="Aksam Muzikleriniz" />
       </section>
       <section>
-        <sevdikleriniz/>
-      </section>
-     <section>
-        <canliPerformanslar/>
+        <sections postTitle="En Sevdikleriniz" />
       </section>
       <section>
-        <mixes/>
+        <sections postTitle="Önerilen Music" />
       </section>
+      <section>
+        <sections postTitle="Gecenin sesi" />
+      </section>
+      <section>
+        <sections postTitle="Şarkılarla türkülerle Türkiye" />
+      </section>
+      <section>
+        <mixes postTitle="Size özel mix'ler: ruh hali" />
+      </section>
+
+          <section>
+        <mixes postTitle="Sizin için derlenenler" />
+      </section>
+       <section>
+        <mixes postTitle="En yeni müzik" />
+      </section>
+      <section>
+        <mixes postTitle="Enerji deposu" />
+      </section>
+
+
     </div>
 
 
@@ -24,21 +42,13 @@
 </template>
 
 <script>
-
-import onerilensection from "../components/sections/onerilenMusic/onerilenSection.vue"
-import aksamMuzikleriniz from "../components/sections/aksamMuzikleriniz/aksamMuzikleriniz.vue"
-import sevdikleriniz from "../components/sections/enSevdikleriniz/sevdikleriniz.vue"
-import canliPerformanslar from "../components/sections/canliPerformanslar/canliPerformanslar.vue"
 import mixes from "../components/sections/mixes/mixes.vue"
+import Sections from '../components/sections/sections.vue'
 
 export default {
   components: {
-
-onerilensection,
-aksamMuzikleriniz,
-sevdikleriniz,
-canliPerformanslar,
-mixes,
+    mixes,
+    Sections,
   },
 
   data() {

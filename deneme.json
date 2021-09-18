@@ -3,7 +3,7 @@
     "sporMix": [
         "Nalan", "Çaresiz", "Started", "run", "Cheers", "Yol", "Alaisemai", "Kuzu",  "Rap God", "Affet", "YIllar Utansın", "affet", "aşka gel", "Yine Ben Asikk Oldum"
     ],
-        "sporMixImage": "https://lh3.googleusercontent.com/djg6SK_F6J3RGSQzSO4cdrYF_h108CDizSylb_B-yTKLaQ6zFJxZCrb7NW7pHgiFL_ZmodtA-Jgkfw=w226-h226-l90-rj",
+        "MixImage": "https://lh3.googleusercontent.com/djg6SK_F6J3RGSQzSO4cdrYF_h108CDizSylb_B-yTKLaQ6zFJxZCrb7NW7pHgiFL_ZmodtA-Jgkfw=w226-h226-l90-rj",
         "name": "Spor Supermix'i",
         "solistler":"Eminem, Pamela Spence, Dicle Olcay, Teoman"
         
@@ -12,7 +12,7 @@
     "karisikSporList1":[
         "Nalan", "Çaresiz", "Started", "run", "Cheers", "Yol", "Alaisemai", "Kuzu",  "Rap God", "Affet", "YIllar Utansın", "affet", "aşka gel", "Yine Ben Asikk Oldum"
     ],
-        "karisikSporList1Image": "https://lh3.googleusercontent.com/mLKoUWnwQeaPB0aR7VQ9iBUeU-HaICIgOo7K0H0voIMXJ0MsSTUCDtPORZSpaAxwsszhSOzWxafSWg=w226-h226-l90-rj",
+        "MixImage": "https://lh3.googleusercontent.com/mLKoUWnwQeaPB0aR7VQ9iBUeU-HaICIgOo7K0H0voIMXJ0MsSTUCDtPORZSpaAxwsszhSOzWxafSWg=w226-h226-l90-rj",
         "name": "Karışık Spor Listesi 1",
         "solistler":" Cem Kısmet, Yüksek Sadakat, Sertab Erener, Athena"
     },
@@ -20,14 +20,14 @@
     "karisikSporList2":[
     "Nalan", "Çaresiz", "Started", "run", "Cheers", "Yol", "Alaisemai", "Kuzu",  "Rap God", "Affet", "YIllar Utansın", "affet", "aşka gel", "Yine Ben Asikk Oldum"
     ],
-    "karisikSporList2Image": "https://lh3.googleusercontent.com/OJBOO-NjqDBbPgzVaoguU6sw-9aKQs79oo027eVBPd9zs4FbEC24h4lQRjzwIFPcyeDNWcvuCzTCs4CW=w226-h226-l90-rj",
+    "MixImage": "https://lh3.googleusercontent.com/OJBOO-NjqDBbPgzVaoguU6sw-9aKQs79oo027eVBPd9zs4FbEC24h4lQRjzwIFPcyeDNWcvuCzTCs4CW=w226-h226-l90-rj",
     "name": "Karışık Spor Listesi 2",
     "solistler":" Yalin, Serdar Ortaç, Şebnem Ferah, Gülben Ergen"
     },
     {
     "karisikSporList3":[ "Nalan","Çaresiz","Started", "run","Cheers", "Yol","Alaisemai", "Kuzu",   "Rap God","Affet", "YIllar Utansın", "affet", "aşka gel", "Yine Ben Asikk Oldum"
     ],
-    "karisikSporList3Image": "https://lh3.googleusercontent.com/JnYkrVLjOpr7CqP1erGm-OoI6zzJIBrGMCXp3JzsU03KkrPGqzZS_RkMNGMycIXkaxza4IVfbTFdGkE=w226-h226-l90-rj",
+    "MixImage": "https://lh3.googleusercontent.com/JnYkrVLjOpr7CqP1erGm-OoI6zzJIBrGMCXp3JzsU03KkrPGqzZS_RkMNGMycIXkaxza4IVfbTFdGkE=w226-h226-l90-rj",
     "name": "Karışık Spor Listesi 3",
     "solistler":" Eminem, Rihanna, Led Zeppelin, Ca$his"
     },
@@ -35,7 +35,7 @@
     "odaklanmaSupermix":[
         "Nalan", "Çaresiz", "Started", "run", "Cheers", "Yol", "Alaisemai", "Kuzu",  "Rap God", "Affet", "YIllar Utansın", "affet", "aşka gel", "Yine Ben Asikk Oldum"
         ],
-        "odaklanmaSupermixImage": "https://lh3.googleusercontent.com/AReFQsURyWxrGRJzAOqxy5ygXR_9bA1y_PEqFMAdg61_VXr-1FvF6E8YupEP9wELy-qbcl37_D9C4Q0=w226-h226-l90-rj" ,
+        "MixImage": "https://lh3.googleusercontent.com/AReFQsURyWxrGRJzAOqxy5ygXR_9bA1y_PEqFMAdg61_VXr-1FvF6E8YupEP9wELy-qbcl37_D9C4Q0=w226-h226-l90-rj" ,
         "name": "Odaklanma Supermix'i",
         "solistler":" BrunuhVille, Jorge Méndez, Mazhar ve Fuat, Kıraç"   
             
@@ -44,7 +44,7 @@
     "karisikOdaklanmaListesi":[
         "Nalan", "Çaresiz", "Started", "run", "Cheers", "Yol", "Alaisemai", "Kuzu",  "Rap God", "Affet", "YIllar Utansın", "affet", "aşka gel", "Yine Ben Asikk Oldum"
         ],
-        "karisikOdaklanmaListesiImage": "https://lh3.googleusercontent.com/Vt3FaFEy5LqJTvZGJpZstlI_nXN_bdEPYtDD03FTzAXMykKYC-we8iCsWg7cz2GZhr0SV1_iuqzUNcU=w226-h226-l90-rj",
+        "MixImage": "https://lh3.googleusercontent.com/Vt3FaFEy5LqJTvZGJpZstlI_nXN_bdEPYtDD03FTzAXMykKYC-we8iCsWg7cz2GZhr0SV1_iuqzUNcU=w226-h226-l90-rj",
         "name": "Karışık Odaklanma Listesi 1",
         "solistler":"Gundogarken, Kıraç, Cem Karaca & Moğollar, Ahmet..." 
             
@@ -53,7 +53,7 @@
     "karisikOdaklanmaListesi2":[
         "Nalan", "Çaresiz", "Started", "run", "Cheers", "Yol", "Alaisemai", "Kuzu",  "Rap God", "Affet", "YIllar Utansın", "affet", "aşka gel", "Yine Ben Asikk Oldum"
         ],
-        "karisikOdaklanmaListesi2Image": "https://lh3.googleusercontent.com/RNP3mtnhWbLiwOJghFWRrNvmIqYvq12IR-kQT0vHSaCfggf1D6JQTpy5FbFVlrR-hwdv59bT9Sdy-bxr=w226-h226-l90-rj",
+        "MixImage": "https://lh3.googleusercontent.com/RNP3mtnhWbLiwOJghFWRrNvmIqYvq12IR-kQT0vHSaCfggf1D6JQTpy5FbFVlrR-hwdv59bT9Sdy-bxr=w226-h226-l90-rj",
         "name": "Karışık Odaklanma Listesi 2",
         "solistler":"Farid Farjad, Aytekin Ataş, Kudsi Erguner Ensemble,..." 
             
@@ -62,7 +62,7 @@
     "karisikOdaklanmaListesi3":[
         "Nalan", "Çaresiz", "Started", "run", "Cheers", "Yol", "Alaisemai", "Kuzu",  "Rap God", "Affet", "YIllar Utansın", "affet", "aşka gel", "Yine Ben Asikk Oldum"
         ],
-        "karisikOdaklanmaListesi3Image": "https://lh3.googleusercontent.com/S_B_75PSESmSjWWuIkh1priREc_OAB-94sqx-CeYe_l-a1PB7_FkEMSlfVtlQaNzeN6-6KOegpDoRdXX=w226-h226-l90-rj",
+        "MixImage": "https://lh3.googleusercontent.com/S_B_75PSESmSjWWuIkh1priREc_OAB-94sqx-CeYe_l-a1PB7_FkEMSlfVtlQaNzeN6-6KOegpDoRdXX=w226-h226-l90-rj",
         "name": "Karışık Odaklanma Listesi 3",
         "solistler":"BrunuhVille, Peter Gundry, Derek Fiechter, Antti" 
             
@@ -71,7 +71,7 @@
     "rahatlaticiSupermix":[
         "Nalan", "Çaresiz", "Started", "run", "Cheers", "Yol", "Alaisemai", "Kuzu",  "Rap God", "Affet", "YIllar Utansın", "affet", "aşka gel", "Yine Ben Asikk Oldum"
         ],
-        "rahatlaticiSupermixImage": "https://lh3.googleusercontent.com/91_8cpsRLbostt8M5Ci6RCbQz8tjfzb0kC0tcCrwXBfl-At7_60RVrdBgPPqEs4ld3ZNcDxVybMCfH0=w226-h226-l90-rj",
+        "MixImage": "https://lh3.googleusercontent.com/91_8cpsRLbostt8M5Ci6RCbQz8tjfzb0kC0tcCrwXBfl-At7_60RVrdBgPPqEs4ld3ZNcDxVybMCfH0=w226-h226-l90-rj",
         "name": "Rahatlatıcı Supermix",
         "solistler":"Mabel Matiz, Eurielle, İlhan Şeşen, Joji"   
     },
@@ -79,7 +79,7 @@
     "karisikRahatlaticiListe1":[
         "Nalan", "Çaresiz", "Started", "run", "Cheers", "Yol", "Alaisemai", "Kuzu",  "Rap God", "Affet", "YIllar Utansın", "affet", "aşka gel", "Yine Ben Asikk Oldum"
         ],
-        "karisikRahatlaticiListe1Image": "https://lh3.googleusercontent.com/mLl1eWKpsXDtgLLWET5iCEm8kymnNWD71szqu_vqvU33I-0hMrEE4nqQcVndXOLQe7fRyZYUl6XXVg=w226-h226-l90-rj",
+        "MixImage": "https://lh3.googleusercontent.com/mLl1eWKpsXDtgLLWET5iCEm8kymnNWD71szqu_vqvU33I-0hMrEE4nqQcVndXOLQe7fRyZYUl6XXVg=w226-h226-l90-rj",
         "name": "Karışık Rahatlatıcı Liste 1",
         "solistler":"Tuğkan, Evdeki Saat, İkiye On Kala, Kaan Boşnak" 
         
@@ -88,7 +88,7 @@
     "karisikRahatlaticiListe2":[
         "Nalan", "Çaresiz", "Started", "run", "Cheers", "Yol", "Alaisemai", "Kuzu",  "Rap God", "Affet", "YIllar Utansın", "affet", "aşka gel", "Yine Ben Asikk Oldum"
         ],
-        "karisikRahatlaticiListe2Image": "https://lh3.googleusercontent.com/1F9zk-CwCeZG4OYJRgKBXQQRMf22HkuZkoTxhK6yca55idNMMZx38VPgpbzSNZqkiAaRl1Jj0Fs4vyo=w226-h226-l90-rj",
+        "MixImage": "https://lh3.googleusercontent.com/1F9zk-CwCeZG4OYJRgKBXQQRMf22HkuZkoTxhK6yca55idNMMZx38VPgpbzSNZqkiAaRl1Jj0Fs4vyo=w226-h226-l90-rj",
         "name": "Karışık Rahatlatıcı Liste 2",
         "solistler":"Pinhani, Pilli Bebek, Cem Adrian, Ezginin Günlüğü" 
             
@@ -97,7 +97,7 @@
     "karisikRahatlaticiListe3":[
         "Nalan", "Çaresiz", "Started", "run", "Cheers", "Yol", "Alaisemai", "Kuzu",  "Rap God", "Affet", "YIllar Utansın", "affet", "aşka gel", "Yine Ben Asikk Oldum"
         ],
-        "karisikRahatlaticiListe3Image": "https://lh3.googleusercontent.com/xKD_iwHgK2tVmWF9hTxR1qoS0rnWl4ENc3LYxG1KPr4QzKViV1NJD_MDo_CHctqNbygzTAqSDLVNn9g=w226-h226-l90-rj",
+        "MixImage": "https://lh3.googleusercontent.com/xKD_iwHgK2tVmWF9hTxR1qoS0rnWl4ENc3LYxG1KPr4QzKViV1NJD_MDo_CHctqNbygzTAqSDLVNn9g=w226-h226-l90-rj",
         "name": "Karışık Rahatlatıcı Liste 3",
         "solistler":"Joji, Lana Del Rey, Mone Kamishiraishi, Johann" 
         
