@@ -3,15 +3,16 @@
       <div class="header">  {{postTitle}} </div>
       <div class="body">
           <div class="trends" v-for=" (data, index) in provideData.todoList" :key="data" >
-            <img style="width: 50px; height: 50px; margin:2vw; " :src="data.image" alt="">
-            <div> {{ index+1 }} </div>
-            <div class="icerik" > 
-
+            <div class="bFlex">             <img style="width: 50px; height: 50px; margin:2vw; " :src="data.image" alt=""> </div>
+            <div class="bFlex" > {{ index+1 }} </div>
+            <div class="bFlex" > 
               <div class="soundName"> {{data.soundName}} </div>
-              <div style="display:flex;" > 
+              <div class="icerik" > 
               <div class="solist"> {{data.artist}}</div>
-              <div class="viewing"> {{data.viewing}} </div> </div>
+              <div class="viewing"> {{data.viewing}} </div>
               </div>
+              </div>
+            
           </div>
       </div>
 </div>
@@ -42,22 +43,47 @@ console.log(this.provideData.todoList)
 }
 </script>
 
-<style>
-.trends{
+<style scoped>
+
+.header {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: 50px;
-  margin: 2vw;
+  justify-content: start;
+  margin-left: 20vw;
+  font-size: 50px;
+  
+}
+.trends{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  height: 150px;
+}
+.trends div{
+  margin-left: 5px;  padding: 5px;
 
 }
+
 .icerik {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bFlex{
+  
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+
+.body{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
 
 </style>
