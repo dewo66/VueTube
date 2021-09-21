@@ -56,6 +56,8 @@ export default {
 @import "../../assets/header/header.css";
 .container {
   position: fixed;
+  width: 100%;
+  height: 3vw;
   z-index: 99;
   
 }

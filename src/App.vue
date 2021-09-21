@@ -2,13 +2,13 @@
   <div class="container">
     <Header />
     <router-view/>
-<media-container/>
+<mediaContainer/>
   </div>
 </template>
 <script>
 import Header from "./views/header/header.vue";
 import * as request from "./axios" 
-import mediaContainer from "./views/mediaPlayerPopup/mediaContainer.vue"
+import mediaContainer from "./views/mediaPlayerPopup/index.vue"
 export default {
   components: {
     Header,
@@ -24,3 +24,10 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.container{
+  display: flex;
+  flex-direction: column;
+}
+</style>
