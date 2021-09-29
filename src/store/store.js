@@ -4,11 +4,10 @@ const store = createStore({
   state: {
     activeComponent: "AnaSayfa",
     MusicData: [],
-    Mixes:[]
-  },
+    Mixes:[],
+    },
   mutations: {
     addMusicData(state, MusicData) {
-      // mutate state
       state.MusicData.push(MusicData);
     },
     addMixesData(state,Mixes){

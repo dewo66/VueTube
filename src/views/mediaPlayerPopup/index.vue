@@ -1,5 +1,5 @@
 <template>
-<div class="container" > 
+<div class="popopContainer" > 
 
  <videoPlayer/> 
 
@@ -21,22 +21,16 @@ components:{
 </script>
 
 <style scoped >
-.container {
+.popopContainer {
     display: flex;
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     width: 100%;
     margin-top: 3vw;
     height: 100%;
     z-index: 9;
-    position: fixed;
-}
-
-.container div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-left: 3vw;
-    margin-right: 3vw;
 }
 
 </style>
