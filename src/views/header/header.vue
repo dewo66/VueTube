@@ -6,7 +6,7 @@
         <div>icon</div>
       </div>
       <div class="menu">
-        <router-link class="nav-link" active-class="active" to="/Anasayfa">
+        <router-link class="nav-link" active-class="active" to="/">
           Anasayfa
         </router-link>
         <router-link class="nav-link" active-class="active" to="/Kesfet">

@@ -8,7 +8,7 @@
 </div>
 
 <div class="tabs" v-if="isActive">
-    <div class= "tab"  v-for=" data in provideData.todoList " :key=" data"  >
+    <div class= "tab" @click="storePush(data)"  v-for=" data in provideData.todoList " :key=" data"  >
 <div class="detail bflex">
         <img
           class="img"
@@ -27,7 +27,7 @@
 </div>
 <div class="tabs" v-if="!isActive">
   <pre style="margin-top:1vw;">
-    Haberin var mı taş duvar?
+Haberin var mı taş duvar?
 Demir kapı, kör pencere
 Yastığım, ranzam, zincirim
 Uğrunda ölümlere gidip geldiğim
@@ -58,7 +58,6 @@ Dağlarına bahar gelmiş memleketimin
 Kaynak: LyricFind
   </pre>
 </div>
-
 </div>    
 </template>
 
@@ -74,13 +73,16 @@ export default {
     };
   },
   created() {
-
-    
-    
   this.$store.state.MusicData[0].data.forEach((item) => {
     this.provideData.todoList.push(item)
   })
   },
+  methods: {
+    storePush: function (musicData) {
+    this.$store.commit("addActiveVideoData", musicData);
+    }
+  }
+
 };
 </script>
 
