@@ -5,7 +5,8 @@ const store = createStore({
     activeComponent: "AnaSayfa",
     MusicData: [],
     Mixes:[],
-    activeVideoData:{},
+    activeVideoData:{
+    },
     },
   mutations: {
     addMusicData(state, MusicData) {
@@ -15,7 +16,7 @@ const store = createStore({
       state.Mixes.push(Mixes);
     },
     addActiveVideoData(state,Mixes){
-      state.activeVideoData.push =Mixes;
+      state.activeVideoData = Mixes;
     }
   },
 });

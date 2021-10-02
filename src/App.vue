@@ -3,6 +3,7 @@
     <Header />
     <router-view/>
 <mediaContainer/>
+<videoPlayerController > </videoPlayerController>
   </div>
 
 </template>
@@ -10,10 +11,13 @@
 import Header from "./views/header/header.vue";
 import * as request from "./axios" 
 import mediaContainer from "./views/mediaPlayerPopup/index.vue"
+import videoPlayerController from "./views/mediaPlayerPopup/videoPlayerController.vue"
 export default {
   components: {
     Header,
     mediaContainer,
+    videoPlayerController
+
   },
   data() {
     return {
@@ -30,7 +34,7 @@ export default {
     this.$store.commit("addMixesData", mixes);
 
   }) .finally(() => this.loading = false);
-  }
+  },
 };
 </script>
 
