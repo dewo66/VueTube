@@ -38,7 +38,6 @@ props : {
   this.$store.state.MusicData[0].data.forEach(( item ) => {
     this.provideData.todoList.push(item)
 });
-console.log(this.provideData.todoList)
   },
 }
 </script>

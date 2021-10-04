@@ -49,7 +49,6 @@ export default {
   watch: {
   '$store.state.activeVideoData': function() {
     this.videoData = this.$store.state.activeVideoData
-    console.log(this.videoData)
   }
 }
   }

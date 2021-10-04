@@ -3,10 +3,10 @@
     <section>
       <div class="header">{{ postTitle }}</div>
 
-    <div class="slider" >
+    <div class="slider " >
 <splide :options="options">
-    <splide-slide  v-for=" data in provideData.todoList " :key=" data">
-<div id="icerik1" >
+    <splide-slide class="onWatch" v-for=" data in provideData.todoList " :key=" data">
+<div id="icerik1">
         <img
           id="resim1"
           class="img"
@@ -54,6 +54,10 @@ export default {
 type: 'slide',
 width: 1500,
 gap: '4vw',
+perMove: 3,
+slideFocus: 999,
+//arrowPath: Ok SVG yolunu değiştirin.
+drag:false,
 pagination : false,
 fixedWidth  : 350,
 fixedHeight : 550,

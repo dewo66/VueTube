@@ -2,6 +2,7 @@
   <div v-if="!loading" class="container">
     <Header />
     <router-view/>
+    <div @click="musicPlayerOn('gönderildi')" > musicplayerglobal </div>
 <mediaContainer/>
 <videoPlayerController > </videoPlayerController>
   </div>
@@ -35,6 +36,28 @@ export default {
 
   }) .finally(() => this.loading = false);
   },
+  mounted () {
+      document.querySelectorAll('div').forEach( (el) => {
+      el.addEventListener('click', (e) => {
+        this.musicPlayerOn(e)
+})
+      } );
+    },
+  methods:{
+    musicPlayerOn(e){
+      const th = this
+      const classEnvanter = e.path[2].className.split(" ");
+      classEnvanter.forEach(function(element) {
+        if (element == "onWatch") {
+    th.$store.commit("addActiveVideoData",th.$store.state.MusicData[0].data[0]);
+    
+         // e.path[2].style.display = "none"
+         // this.$store.state.activeVideoData.artist = "dene"
+          }
+    }
+)
+    }
+  }
 };
 </script>
 

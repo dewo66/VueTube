@@ -80,7 +80,7 @@ export default {
   methods: {
     storePush: function (musicData) {
     this.$store.commit("addActiveVideoData", musicData);
-    }
+    },
   }
 
 };

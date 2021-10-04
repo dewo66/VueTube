@@ -1,5 +1,5 @@
 <template>
-<div class="popopContainer" > 
+<div  class="popopContainer"  v-if="activeVideoData">
 
  <videoPlayer/> 
 
@@ -15,7 +15,12 @@ export default {
 components:{
     videoPlayer,
     musicPlayerPage
-}
+},
+  computed:{
+    activeVideoData: function () {
+      return this.$store.state.activeVideoData.artist !== undefined
+    }
+  },
 
 }
 </script>
