@@ -2,7 +2,7 @@
 <div class="container">
       <div class="header">  {{postTitle}} </div>
       <div class="body">
-          <div class="trends" v-for=" (data, index) in provideData.todoList" :key="data" >
+          <div class="trends " v-for=" (data, index) in provideData.todoList" :key="data" >
             <div class="bFlex">             <img style="width: 50px; height: 50px; margin:2vw; " :src="data.image" alt=""> </div>
             <div class="bFlex" > {{ index+1 }} </div>
             <div class="bFlex" > 

@@ -2,7 +2,6 @@
   <div v-if="!loading" class="container">
     <Header />
     <router-view/>
-    <div @click="musicPlayerOn('gönderildi')" > musicplayerglobal </div>
 <mediaContainer/>
 <videoPlayerController > </videoPlayerController>
   </div>

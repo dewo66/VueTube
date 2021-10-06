@@ -3,7 +3,7 @@
           <div class="header">{{ postTitle }}</div>
 <div class="icerik">  
         <ul class="grid">
-        <li  v-for="data in ruhHalleriData" :key=" data" > {{data}}</li>
+        <li  v-for="data in datas" :key=" data" > {{data}}</li>
         </ul>
     
 </div>
@@ -21,11 +21,16 @@ props : {
       type:String,
       required:false,
       default:"başlık bölümü"
+    },
+    datas:{
+      type:Array,
+      required:false,
     }
   },
   data(){
     return {
-        ruhHalleriData:["Havam Yerinde",
+      
+ruhHalleriData:["Havam Yerinde",
 "Romantizm",
 "Rock ve Metal",
 "Dizi ve Film Müzikleri",
@@ -45,7 +50,6 @@ props : {
 "Dans ve Elektronik",
 "1970'ler",
 "Klasik",
-"R&B ve Soul",
 "1980'ler",
 "Aile",
 "Latin",
@@ -61,7 +65,7 @@ props : {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
   width: 100%;
   height: 100%;
@@ -70,7 +74,6 @@ props : {
     margin-left: 4vw;
 }
 .header {
-  margin-left: 10vw;
   width: 100%;
   margin-bottom: 2vw;
   margin-top: 2vw;
@@ -98,7 +101,7 @@ props : {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 

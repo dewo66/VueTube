@@ -14,6 +14,24 @@ const routes = [
     component: () => import("./views/kesfet.vue"),
   },
   {
+    name: "YeniCikanlar",
+    path: "/kesfet/YeniCikanlar",
+    // component : Home
+    component: () => import("./views/kesfet/YeniCikanlar.vue"),
+  },
+  {
+    name: "Listeler",
+    path: "/kesfet/Listeler",
+    // component : Home
+    component: () => import("./views/kesfet/Listeler.vue"),
+  },
+  {
+    name: "RuhHalleriVeTurleri",
+    path: "/kesfet/RuhHalleriVeTurleri",
+    // component : Home
+    component: () => import("./views/kesfet/RuhHalleriVeTurleri.vue"),
+  },
+  {
     name: "KitaplikPage",
     path: "/kitaplik",
     // component : Home

@@ -3,15 +3,21 @@
   <div class="header" >
     <div class="musicNavigationButton">
       <p class="icon">icon</p>
-      <div>Yeni Çıkanlar </div>
+      <router-link class="nav-link" active-class="active" to="/kesfet/YeniCikanlar">
+                <div>Yeni Çıkanlar </div>
+        </router-link>
       </div>
     <div class="musicNavigationButton">
       <p class="icon">icon</p>
-      <div>Listeler </div>
+      <router-link class="nav-link" active-class="active" to="/Kesfet/Listeler">
+                    <div>Listeler </div>
+        </router-link>
       </div>
     <div class="musicNavigationButton">
       <p class="icon">icon</p>
+      <router-link class="nav-link" active-class="active" to="/Kesfet/RuhHalleriVeTurleri">
       <div>Ruh halleri ve türleri </div>
+        </router-link>
     </div>
     </div>
   <section>
